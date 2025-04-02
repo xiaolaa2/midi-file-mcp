@@ -1,6 +1,6 @@
 {
   "name": "midi-file-mcp",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A MCP tool for parsing and manipulating MIDI files based on Tone.js",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
