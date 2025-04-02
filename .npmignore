@@ -1,0 +1,42 @@
+# 源代码
+src/
+
+# 开发工具配置
+.vscode/
+.idea/
+.github/
+.git/
+.gitignore
+.eslintrc
+.eslintrc.json
+.eslintrc.js
+eslint.config.js
+.prettierrc
+.prettierrc.json
+.cursorrules
+
+# 测试文件
+test/
+*.test.ts
+*.spec.ts
+
+# 构建缓存
+.cache/
+.tmp/
+tsconfig.tsbuildinfo
+
+# 日志
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 其他不需要的文件
+node_modules/
+coverage/
+.DS_Store
+Thumbs.db
+
+# 确保不忽略dist目录里的内容
+!dist/ 

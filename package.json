@@ -1,0 +1,66 @@
+{
+  "name": "midi-file-mcp",
+  "version": "0.0.1",
+  "description": "A MCP tool for parsing and manipulating MIDI files based on Tone.js",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "bin": {
+    "midi-file-mcp": "dist/main.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "debug": "tsc && npx -y @modelcontextprotocol/inspector node dist/main.js",
+    "start": "tsc && node dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf dist",
+    "prepublishOnly": "npm run clean && npm run build",
+    "publish": "npm publish"
+  },
+  "keywords": [
+    "midi",
+    "parser",
+    "typescript",
+    "mcp",
+    "modelcontextprotocol",
+    "tone",
+    "tonejs"
+  ],
+  "author": "xiaolaa2 <xiaolaa@outlook.com>",
+  "homepage": "https://github.com/yourusername/midi-file-mcp#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/midi-file-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/midi-file-mcp/issues"
+  },
+  "license": "ISC",
+  "packageManager": "pnpm@10.6.5",
+  "type": "module",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.8.0",
+    "@tonejs/midi": "^2.0.28",
+    "tone": "^15.0.4",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "@types/node": "^22.13.14",
+    "@typescript-eslint/eslint-plugin": "^8.29.0",
+    "@typescript-eslint/parser": "^8.29.0",
+    "eslint": "^9.23.0",
+    "globals": "^16.0.0",
+    "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE"
+  ]
+}
