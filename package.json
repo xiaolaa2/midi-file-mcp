@@ -15,9 +15,11 @@
     "clean": "rimraf dist",
     "prepublishOnly": "npm run clean && npm run build",
     "publish": "npm publish",
-    "release:major": "npm version major && npm publish",
-    "release:minor": "npm version minor && npm publish",
-    "release:patch": "npm version patch && npm publish"
+    "release:major": "npm version major && git push --follow-tags",
+    "release:minor": "npm version minor && git push --follow-tags",
+    "release:patch": "npm version patch && git push --follow-tags",
+    "changelog:update": "node scripts/update-changelog.js",
+    "release": "node scripts/release.js"
   },
   "keywords": [
     "midi",
