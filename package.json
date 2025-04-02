@@ -1,6 +1,6 @@
 {
   "name": "midi-file-mcp",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "A MCP tool for parsing and manipulating MIDI files based on Tone.js",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
@@ -14,7 +14,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rimraf dist",
     "prepublishOnly": "npm run clean && npm run build",
-    "publish": "npm publish"
+    "publish": "npm publish",
+    "release:major": "npm version major && npm publish",
+    "release:minor": "npm version minor && npm publish",
+    "release:patch": "npm version patch && npm publish"
   },
   "keywords": [
     "midi",
@@ -26,15 +29,15 @@
     "tonejs"
   ],
   "author": "xiaolaa2 <xiaolaa@outlook.com>",
-  "homepage": "https://github.com/yourusername/midi-file-mcp#readme",
+  "homepage": "https://github.com/xiaolaa2/midi-file-mcp#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/midi-file-mcp.git"
+    "url": "git+https://github.com/xiaolaa2/midi-file-mcp.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/midi-file-mcp/issues"
+    "url": "https://github.com/xiaolaa2/midi-file-mcp/issues"
   },
-  "license": "ISC",
+  "license": "MIT",
   "packageManager": "pnpm@10.6.5",
   "type": "module",
   "engines": {
