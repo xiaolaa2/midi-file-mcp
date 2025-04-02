@@ -2,7 +2,6 @@
 
 <div align="center">
   
-![版本](https://img.shields.io/badge/版本-0.1.0-blue)
 ![许可证](https://img.shields.io/badge/许可证-MIT-green)
 [![tonejs](https://img.shields.io/badge/tonejs-midi-orange)](https://github.com/Tonejs/Midi)
 [![MCP](https://img.shields.io/badge/MCP-ModelContextProtocol-purple)](https://modelcontextprotocol.ai/)
