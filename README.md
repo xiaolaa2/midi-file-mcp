@@ -2,8 +2,8 @@
 
 <div align="center">
   
-![version](https://img.shields.io/badge/version-0.0.0-blue)
-![license](https://img.shields.io/badge/license-ISC-green)
+![version](https://img.shields.io/badge/version-0.1.0-blue)
+![license](https://img.shields.io/badge/license-MIT-green)
 [![tonejs](https://img.shields.io/badge/tonejs-midi-orange)](https://github.com/Tonejs/Midi)
 [![MCP](https://img.shields.io/badge/MCP-ModelContextProtocol-purple)](https://modelcontextprotocol.ai/)
 
@@ -34,48 +34,33 @@ This is a MIDI file parsing and manipulation tool based on Tone.js and the @tone
 - Add new tracks
 - Comprehensive error handling
 
-## 🚀 Installation
+## 📥 Prerequisites
+1. Install **Node.js**: Ensure that the npx command can run normally. It is recommended to install the latest stable version from the [Node.js official website](https://nodejs.org/)
 
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/midi-parser-mcp.git
-cd midi-parser-mcp
 
-# Install dependencies
-npm install
-# or
-pnpm install
+## 🔧 Usage
+Use with an MCP client, supported clients include but are not limited to:
+   - [Cursor](https://www.cursor.com)
+   - [Cherry Studio](https://github.com/CherryHQ/cherry-studio)
+   - Claude Desktop
 
-# Build the project
-npm run build
-```
+### Cursor Configuration Example
 
-## 🔍 Error Handling
+Configure midi-file-mcp in Cursor:
 
-All functions have comprehensive error handling mechanisms and will return clear error messages when problems occur. Common errors include:
-- File does not exist
-- File format error
-- Specified track index does not exist
-
-## 🛠️ Development
-
-```bash
-# Build the project
-npm run build
-
-# Debug with MCP Inspector
-npm run debug
-
-# Start the service
-npm run start
-
-# Clean the build files
-npm run clean
+```json
+"midi-file-mcp": {
+    "command": "npx",
+    "args": [
+        "-y",
+        "midi-file-mcp"
+    ]
+}
 ```
 
 ## 📄 License
 
-This project is licensed under the ISC License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## 🙏 Acknowledgements
 

@@ -2,8 +2,8 @@
 
 <div align="center">
   
-![版本](https://img.shields.io/badge/版本-0.0.0-blue)
-![许可证](https://img.shields.io/badge/许可证-ISC-green)
+![版本](https://img.shields.io/badge/版本-0.1.0-blue)
+![许可证](https://img.shields.io/badge/许可证-MIT-green)
 [![tonejs](https://img.shields.io/badge/tonejs-midi-orange)](https://github.com/Tonejs/Midi)
 [![MCP](https://img.shields.io/badge/MCP-ModelContextProtocol-purple)](https://modelcontextprotocol.ai/)
 
@@ -40,10 +40,10 @@
 
 ### Cursor 配置示例
 
-在 Cursor 中配置 ableton-copilot-mcp：
+在 Cursor 中配置 midi-file-mcp：
 
 ```json
-"ableton-js-mcp": {
+"midi-file-mcp": {
     "command": "npx",
     "args": [
         "-y",
@@ -54,7 +54,7 @@
 
 ## 📄 许可证
 
-本项目采用ISC许可证。详情请参阅LICENSE文件。
+本项目采用MIT许可证。详情请参阅LICENSE文件。
 
 ## 🙏 致谢
 
