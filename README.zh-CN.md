@@ -1,4 +1,4 @@
-# 🎵 MIDI文件解析器
+# 🎵 MIDI文件MCP
 
 <div align="center">
   

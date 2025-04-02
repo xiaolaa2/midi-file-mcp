@@ -1,8 +1,7 @@
-# 🎵 MIDI Parser MCP
+# 🎵 MIDI File MCP
 
 <div align="center">
   
-![version](https://img.shields.io/badge/version-0.1.0-blue)
 ![license](https://img.shields.io/badge/license-MIT-green)
 [![tonejs](https://img.shields.io/badge/tonejs-midi-orange)](https://github.com/Tonejs/Midi)
 [![MCP](https://img.shields.io/badge/MCP-ModelContextProtocol-purple)](https://modelcontextprotocol.ai/)
