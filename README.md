@@ -1,7 +1,8 @@
 # 🎵 MIDI File MCP
 
 <div align="center">
-  
+ 
+[![smithery badge](https://smithery.ai/badge/@xiaolaa2/midi-file-mcp)](https://smithery.ai/server/@xiaolaa2/midi-file-mcp)
 ![license](https://img.shields.io/badge/license-MIT-green)
 [![tonejs](https://img.shields.io/badge/tonejs-midi-orange)](https://github.com/Tonejs/Midi)
 [![MCP](https://img.shields.io/badge/MCP-ModelContextProtocol-purple)](https://modelcontextprotocol.ai/)
@@ -42,6 +43,14 @@ Use with an MCP client, supported clients include but are not limited to:
    - [Cursor](https://www.cursor.com)
    - [Cherry Studio](https://github.com/CherryHQ/cherry-studio)
    - Claude Desktop
+
+### Installing via Smithery
+
+To install MIDI File Parser for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@xiaolaa2/midi-file-mcp):
+
+```bash
+npx -y @smithery/cli install @xiaolaa2/midi-file-mcp --client claude
+```
 
 ### Cursor Configuration Example
 
