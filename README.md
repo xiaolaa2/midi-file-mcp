@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/xiaolaa2-midi-file-mcp-badge.png)](https://mseep.ai/app/xiaolaa2-midi-file-mcp)
+
 # 🎵 MIDI File MCP
 
 <div align="center">
