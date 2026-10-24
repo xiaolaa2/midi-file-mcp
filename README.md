@@ -2,7 +2,7 @@
 
 <div align="center">
  
-[![smithery badge](https://smithery.ai/badge/@xiaolaa2/midi-file-mcp)](https://smithery.ai/server/@xiaolaa2/midi-file-mcp)
+[![LightNow capabilities](https://lightnow.ai/badge/io.github.xiaolaa2/midi-file-mcp)](https://lightnow.ai/servers/io.github.xiaolaa2/midi-file-mcp)
 ![license](https://img.shields.io/badge/license-MIT-green)
 [![tonejs](https://img.shields.io/badge/tonejs-midi-orange)](https://github.com/Tonejs/Midi)
 [![MCP](https://img.shields.io/badge/MCP-ModelContextProtocol-purple)](https://modelcontextprotocol.ai/)
